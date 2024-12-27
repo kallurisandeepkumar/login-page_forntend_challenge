@@ -1,8 +1,7 @@
-# React + Vite
+# Front End Code Challenge 1: Login Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Create a new Page 'Login'
 
-Currently, two official plugins are available:
+## Adobe XD Design Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Design Reference - Adobe XD](https://xd.adobe.com/view/9ede06e3-b742-4d60-8dcb-49b6e3e9fc85-cb8d/)
