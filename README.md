@@ -6,4 +6,4 @@
 
 [Design Reference - Adobe XD](https://xd.adobe.com/view/9ede06e3-b742-4d60-8dcb-49b6e3e9fc85-cb8d/)
 
-[Live Link -Deployed in Netlify](https://dancing-horse-424c38.netlify.app/)
+[Live Link -Deployed in Netlify](https://splendorous-kringle-5a01f2.netlify.app/)
