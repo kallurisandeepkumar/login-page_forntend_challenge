@@ -45,7 +45,7 @@ const Login = () => {
 
   return (
     <div className="container">
-      <div className="background"></div>
+      
       <div className="card">
         <div className="logo-container">
         <img
