@@ -47,11 +47,13 @@ const Login = () => {
     <div className="container">
       <div className="background"></div>
       <div className="card">
+        <div className="logo-container">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
           alt="Amazon Logo"
           className="logo"
         />
+        </div>
         <h2 className="heading">Login</h2>
         <img src={tree} alt="Tree Illustration" className="tree-image" />
         <form onSubmit={handleSubmit}>

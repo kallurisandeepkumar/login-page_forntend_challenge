@@ -24,21 +24,20 @@ body {
 }
 
 .background {
-  position: absolute; /* Ensure it spans across the container */
-  top: 0;
-  right: 0;
+  position: absolute;
 
-  left: 0; /* Start at the left */
   width: 100%;
   height: 60vh; /* Fixed height for the background */
   background: url("./assets/Rectangle 1.png") no-repeat center center;
   background-size: cover;
+  z-index: -1;
 }
 
 .card {
-  position: absolute;
+  position: relative;
   top: 20vh; /* Overlapping the background */
   left: 50%;
+
   transform: translateX(-50%);
   width: 100%;
 
@@ -47,12 +46,15 @@ body {
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 40px;
+  padding: 3rem;
 }
 
 /* Logo Section */
 .logo-container {
-  width: 100%;
+  margin-left: -3rem; /* Match the padding of the card */
+  margin-right: -3rem;
+  margin-top: -3rem;
+  width: calc(100%+6rem); /* Full width */
   padding: 10px 0;
   background: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -64,6 +66,7 @@ body {
   max-width: 10rem; /* Limit maximum size */
   height: auto; /* Maintain aspect ratio */
   margin: 0 auto; /* Center the logo horizontally */
+  padding-top: 1rem; /* Add padding to the sides */
 }
 
 /* Login Heading */
@@ -101,7 +104,7 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 90%;
   padding: 12px 0;
   border: none;
   border-bottom: 1px solid #e0e0e0;
@@ -149,11 +152,13 @@ input:focus {
 }
 
 .forgot-password {
-  color: #555;
+  color: #000000;
+  text-decoration: none;
 }
 
 .sign-up {
   color: #e63946;
+  text-decoration: none;
 }
 
 /* Divider */
