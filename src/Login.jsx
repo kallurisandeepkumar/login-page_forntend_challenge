@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Login.css";
-import tree from "./assets/tree.png";
+import tree from "./assets/Tree.png";
 import facebookicon from "./assets/facebook.png";
 import googleicon from "./assets/google.png";
 import errorSign from "./assets/error.svg";

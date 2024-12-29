@@ -48,7 +48,7 @@ body {
   margin-left: -3rem; /* Match the padding of the card */
   margin-right: -3rem;
   margin-top: -3rem;
-  width: calc(100%+6rem); /* Full width */
+  width: calc(100% + 6rem); /* Full width */
   padding: 10px 0;
   background: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
